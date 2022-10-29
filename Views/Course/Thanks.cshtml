@@ -1,0 +1,30 @@
+@model Student
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks For Registiration</title>
+</head>
+<body>
+    <h2> @Model.Name, Hello !</h2>
+    <hr>
+    @if (@Model.Confirm == true)
+    {
+        <span> Thank you for your registration </span>
+        <div>
+            <p> Your Email : @Model.Email </p>
+            <p> Your Phone : @Model.Phone </p>
+        </div>
+        <div> 
+            <a asp-action="List">View</a> Other Participants
+        </div>
+    }
+    else
+    {
+        <span> We are sorry! We hope you change your opinion! </span>
+    }
+</body>
+</html>
