@@ -8,33 +8,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="~/Modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
 </head>
 <body>
-    <form asp-action="Apply" method="post">  
-        <div asp-validation-summary="All"></div>
-        <p>
-            <label asp-for="Name"> NAME : </label>
-            <input asp-for="Name">
-        </p>
-        <p>
-            <label asp-for="Email"> EMAIL : </label>
-            <input asp-for="Email">
-        </p>
-        <p>
-            <label asp-for="Phone"> PHONE : </label>
-            <input asp-for="Phone">
-        </p>
-        <p>
-            <label asp-for="Confirm"> Have you attend this course ? </label>
-            <select asp-for="Confirm">
-                <option value="true">YES</option>
-                <option value="false">NO</option>
-            </select>
-        </p>
-        <p>
-            <input type="submit" value="SUBMIT">
-        </p>
-
-    </form>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width:500px;">
+            <div class="card-header">
+                <h3>Registration Form</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Apply" method="post">
+                    <div asp-validation-summary="All" class="field-validation-error"></div>
+                    <div class="form-group">
+                        <label asp-for="Name">Name</label>
+                        <input class="form-control" asp-for="Name">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email">EMAIL</label>
+                        <input class="form-control" asp-for="Email">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Phone">PHONE</label>
+                        <input class="form-control" asp-for="Phone">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Confirm">Have you attend this course?</label>
+                        <select asp-for="Confirm">
+                            <option value="true">YES</option>
+                            <option value="false">NO</option>
+                        </select>
+                    </div>
+                    <div class="form-group"> 
+                        <input type="submit" class="btn btn-block" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
