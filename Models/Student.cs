@@ -16,7 +16,7 @@ namespace CourseApp.Models
         public string? Phone { get; set; }
 
         [Required(ErrorMessage = "Confirmation is required")]
-        public bool Confirm { get; set; }
+        public bool? Confirm { get; set; }
 
     }
 }

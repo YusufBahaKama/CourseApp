@@ -4,7 +4,7 @@ namespace CourseApp.Models
     {
         public string? Name { get; set; }
         public string? Description { get; set; }
-        public bool IsOpen { get; set; }
+        public bool? IsOpen { get; set; }
     }
 
 

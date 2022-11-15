@@ -7,6 +7,20 @@
     <title>Course Controller</title>
 </head>
 <body>
-    <p> Index file in Course Controller</p>  
+    <h1>
+        ViewData example ---
+        @(((Course)ViewData["course"]).Name)
+    </h1>
+    <h2>
+        ViewBag example ---
+        @(((Course)(ViewBag.course)).Name)
+    </h2>
+    <h3>
+        @ViewBag.count
+    </h3>
+    <h4>
+        Model example ---
+        @Model.Name
+    </h4>
 </body>
 </html>
