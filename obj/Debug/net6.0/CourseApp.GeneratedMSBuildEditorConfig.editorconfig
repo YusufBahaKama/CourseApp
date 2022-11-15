@@ -8,41 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CourseApp
 build_property.RootNamespace = CourseApp
-build_property.ProjectDir = d:\VS Repos\WebProgramming\CourseApp\
+build_property.ProjectDir = D:\VS Repos\WebProgramming\CourseApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\VS Repos\WebProgramming\CourseApp
+build_property.MSBuildProjectDirectory = D:\VS Repos\WebProgramming\CourseApp
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Course/Apply.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Course/Apply.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFwcGx5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Course/Index.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Course/List.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Course/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Course/Thanks.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Course/Thanks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXFRoYW5rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Home/About.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Home/Details.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/Home/Index.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/VS Repos/WebProgramming/CourseApp/Views/_ViewImports.cshtml]
+[D:/VS Repos/WebProgramming/CourseApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "YQDrbL2nQNBzM2nnqEnK+tfCpRoehBvgX+JzuDgHgSY=",
+  "Source": "CourseApp",
+  "BasePath": "_content/CourseApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CourseApp\\wwwroot",
+      "Source": "CourseApp",
+      "ContentRoot": "D:\\VS Repos\\WebProgramming\\CourseApp\\wwwroot\\",
+      "BasePath": "_content/CourseApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\VS Repos\\WebProgramming\\CourseApp\\wwwroot\\css\\style.css",
+      "SourceId": "CourseApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VS Repos\\WebProgramming\\CourseApp\\wwwroot\\",
+      "BasePath": "_content/CourseApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

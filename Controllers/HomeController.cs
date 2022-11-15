@@ -17,16 +17,23 @@ namespace CourseApp.Controllers
         {
             return View(); //localhost:7078/home/list
         }
-        public IActionResult Details()
-        {
-            var course = new Course();
+        public IActionResult Details(int? id, string? sortby)//, int year, int month)
+            {
+            /*var course = new Course();
             course.Name = "ASP .NET CORE MVC";
             course.Description = "MVC FUDAMENTALS";
             course.IsOpen = true;
-            return View(course); //localhost:7078/home/details
-        }
-        
-        
+            return View(course); //localhost:7078/home/details */
+
+
+            //return Content("id = " + id + " sortby = " + sortby + " year = "+ year + " month = " + month);
+            if(!id.HasValue){
+                id = 1;
+            }
+            if(string.IsNullOrEmpty(sortby)){
+                sortby = "name";
+            }
+           return Content("id = " + id + " sortby = " + sortby);    
+            }
     }
-    
 }

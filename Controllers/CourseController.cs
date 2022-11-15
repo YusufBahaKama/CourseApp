@@ -10,6 +10,37 @@ namespace CourseApp.Controllers
             return View();
         }
 
+        public IActionResult ByReleased(int year, int month){
+            return Content("year = " + year + " month = " + month);
+        }
+
+//Examples for returning type
+
+      /*public RedirectToActionResult Index1()
+        {
+            return RedirectToAction("List");
+        }
+        public NotFoundResult index2()
+        {
+            return NotFound();
+        }
+        public UnauthorizedResult Index3()
+        {
+            return Unauthorized();
+        }
+        public RedirectResult Index4()
+        {
+            return Redirect("Index");
+        }
+        public IActionResult Index5()
+        {
+            return Content("Hello World");
+        }
+        public IActionResult Index6()
+        {
+            return BadRequest();
+        }*/
+
         [HttpGet]
         public IActionResult Apply() //for only view aApply.cshtml
         {

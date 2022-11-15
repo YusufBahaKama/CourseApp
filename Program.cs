@@ -9,6 +9,14 @@ var app = builder.Build();
 //app.MapGet("/", () => "Hello World!");
 
 app.UseRouting();
+
+app.MapControllerRoute(
+    "CourseByReleased",
+    "courses/released/{year}/{month}",
+    new {Controller="Course", Action="ByReleased"},
+    new {year=@"\d{4}", month=@"\d{2}"}
+    );
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
